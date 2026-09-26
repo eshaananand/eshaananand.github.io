@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <path d="M40 60c20-40 80-52 130-36 44 14 80 56 72 104-8 50-52 84-104 90C82 226 30 196 22 144 16 108 24 84 40 60z" fill="#F2A33A"/>
+  <!-- bag -->
+  <g fill="none" stroke="#1F1E2F" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M72 100h112l-10 92H82z"/>
+    <path d="M100 100V84c0-16 12-28 28-28s28 12 28 28v16"/>
+    <path d="M100 124v10M156 124v10"/>
+  </g>
+  <!-- price tag -->
+  <g transform="translate(150 140) rotate(-20)">
+    <path d="M0 0h34l10 10-10 10H0z" fill="#FFFFFF" stroke="#1F1E2F" stroke-width="6" stroke-linejoin="round"/>
+    <circle cx="10" cy="10" r="3.5" fill="#1F1E2F"/>
+  </g>
+</svg>

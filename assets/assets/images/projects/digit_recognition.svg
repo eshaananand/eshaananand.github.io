@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <path d="M34 78C46 38 96 18 140 22c46 4 90 34 96 78 6 46-24 90-66 108-44 18-98 8-124-28C22 148 22 114 34 78z" fill="#5B4FCF"/>
+  <!-- pixel grid -->
+  <g fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="3">
+    <path d="M76 68h104M76 96h104M76 124h104M76 152h104M76 180h104"/>
+    <path d="M76 68v112M104 68v112M132 68v112M160 68v112M180 68v112"/>
+  </g>
+  <!-- handwritten 7 -->
+  <path d="M92 84c22-6 46-8 70-4-18 30-34 62-44 100" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- network nodes -->
+  <g fill="#7CC4FF">
+    <circle cx="200" cy="72" r="7"/><circle cx="214" cy="112" r="7"/><circle cx="200" cy="152" r="7"/>
+  </g>
+  <g stroke="#7CC4FF" stroke-width="3" fill="none">
+    <path d="M180 96l20-24M180 112h34M180 128l20 24"/>
+  </g>
+</svg>

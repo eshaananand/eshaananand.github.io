@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- soft blob background -->
+  <path d="M60 28c40-22 96-18 132 10 32 26 40 84 22 126-18 40-70 60-118 56C52 216 14 182 12 132 10 88 26 47 60 28z" fill="#1F3A5F"/>
+  <!-- AR frame corners -->
+  <g fill="none" stroke="#7CC4FF" stroke-width="7" stroke-linecap="round">
+    <path d="M54 82v-22h22"/><path d="M202 82v-22h-22"/>
+    <path d="M54 174v22h22"/><path d="M202 174v22h-22"/>
+  </g>
+  <!-- chef hat -->
+  <g fill="none" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M92 150v-30c-18 0-30-14-28-30 2-14 14-24 28-22 4-16 20-26 36-26s32 10 36 26c14-2 26 8 28 22 2 16-10 30-28 30v30z"/>
+    <path d="M92 150h72"/>
+    <path d="M92 172h72"/>
+    <path d="M114 128v22M142 128v22"/>
+  </g>
+</svg>

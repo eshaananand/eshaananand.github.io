@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <path d="M44 52c30-36 94-42 140-16 40 22 62 70 48 114-14 46-62 76-112 74C68 222 24 186 18 136 14 104 26 74 44 52z" fill="#2F4F4F"/>
+  <!-- train front -->
+  <g fill="none" stroke="#FFD23F" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M84 176V92c0-22 20-38 44-38s44 16 44 38v84z"/>
+    <path d="M100 104h56v36h-56z"/>
+    <path d="M84 176h88"/>
+    <path d="M96 196l-12 20M160 196l12 20"/>
+    <path d="M104 156h8M144 156h8"/>
+  </g>
+  <!-- headlight -->
+  <circle cx="128" cy="160" r="8" fill="#FFD23F"/>
+  <!-- rails -->
+  <g stroke="#FFFFFF" stroke-opacity="0.5" stroke-width="5" stroke-linecap="round">
+    <path d="M60 226h136"/><path d="M76 236h104"/>
+  </g>
+</svg>

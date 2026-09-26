@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <path d="M50 40c34-30 96-32 138-6 36 22 54 70 40 112-14 44-58 78-108 78C68 224 18 186 16 134 14 96 26 62 50 40z" fill="#0F172A"/>
+  <!-- stars -->
+  <g fill="#FFFFFF" fill-opacity="0.6">
+    <circle cx="58" cy="70" r="2.5"/><circle cx="196" cy="58" r="2"/><circle cx="210" cy="150" r="2.5"/><circle cx="44" cy="150" r="2"/><circle cx="120" cy="40" r="2"/>
+  </g>
+  <!-- pixel space invader, 11x8 grid, cell = 12 -->
+  <g fill="#4ADE80" transform="translate(62 76)">
+    <rect x="24" y="0" width="12" height="12"/><rect x="96" y="0" width="12" height="12"/>
+    <rect x="36" y="12" width="12" height="12"/><rect x="84" y="12" width="12" height="12"/>
+    <rect x="24" y="24" width="84" height="12"/>
+    <rect x="12" y="36" width="24" height="12"/><rect x="48" y="36" width="36" height="12"/><rect x="96" y="36" width="24" height="12"/>
+    <rect x="0" y="48" width="132" height="12"/>
+    <rect x="0" y="60" width="12" height="12"/><rect x="24" y="60" width="84" height="12"/><rect x="120" y="60" width="12" height="12"/>
+    <rect x="0" y="72" width="12" height="12"/><rect x="24" y="72" width="12" height="12"/><rect x="96" y="72" width="12" height="12"/><rect x="120" y="72" width="12" height="12"/>
+    <rect x="36" y="84" width="24" height="12"/><rect x="72" y="84" width="24" height="12"/>
+  </g>
+  <!-- ship + shot -->
+  <rect x="122" y="186" width="12" height="24" fill="#FFFFFF"/>
+  <path d="M104 210h48v14h-48z M120 202h16v8h-16z" fill="#7CC4FF"/>
+</svg>
