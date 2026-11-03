@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Eshaan Anand — Software Development Engineer. Backend & systems: Java, Spring Boot, Kafka, Redis, Spark.">
+
+  <!-- Link previews (LinkedIn, WhatsApp, Slack, X) -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://eshaananand.github.io/">
+  <meta property="og:title" content="Eshaan Anand — Software Development Engineer">
+  <meta property="og:description" content="Backend & systems engineer: Java, Spring Boot, Kafka, Redis, Spark. Projects, experience and how to reach me.">
+  <meta property="og:image" content="https://eshaananand.github.io/assets/assets/images/personal/me.png">
+  <meta property="og:image:alt" content="Eshaan Anand">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Eshaan Anand — Software Development Engineer">
+  <meta name="twitter:description" content="Backend & systems engineer: Java, Spring Boot, Kafka, Redis, Spark.">
+  <meta name="twitter:image" content="https://eshaananand.github.io/assets/assets/images/personal/me.png">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Eshaan Anand">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>Eshaan Anand</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <script src="flutter_bootstrap.js?v=f8758f4a5d" async></script>
+
+  <!--
+    GoatCounter analytics (cookie-less, counts only). The app is a single
+    page, so besides the initial load we report every in-app navigation as
+    its own pageview by hooking the History API that Flutter's router uses.
+    Localhost is never counted. To stop counting your own visits, open
+    https://eshaananand.github.io/#toggle-goatcounter once per browser.
+  -->
+  <script data-goatcounter="https://eshaananand.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
+  <script>
+    (function () {
+      function report() {
+        if (window.goatcounter && window.goatcounter.count) {
+          window.goatcounter.count({ path: location.pathname });
+        }
+      }
+      ['pushState', 'replaceState'].forEach(function (method) {
+        var original = history[method];
+        history[method] = function () {
+          var before = location.pathname;
+          var result = original.apply(this, arguments);
+          if (location.pathname !== before) report();
+          return result;
+        };
+      });
+      window.addEventListener('popstate', report);
+    })();
+  </script>
+</body>
+</html>
