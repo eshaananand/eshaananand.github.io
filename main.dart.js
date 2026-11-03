@@ -86381,7 +86381,7 @@ j=A.dl(g,h.d,a3,10,"  Hi, I'm Eshaan Anand!\n    - Backend & Systems Engineer\n 
 i=A.aEW(A.aDU(B.os,"See my work",h.a.c))
 b=A.zq(a4,A.ae(a4,12,10,g,b))
 k=h.d
-k=A.b([A.azU(new A.cj(B.cv,g,g,new A.h1(new A.aj(0,a2,0,1/0),A.pz(A.b([j,B.e6,new A.cj(B.cv,g,g,i,g),b,A.mc(A.b([A.lG(!1,g,!0,A.a2U(k,"Github"),g,!0,g,g,g,g,g,g,A.w2("https://github.com/eshaananand"),g,g,g),B.l3,A.lG(!1,g,!0,A.a2U(k,"LinkedIn"),g,!0,g,g,g,g,g,g,A.w2(u.o),g,g,g),B.l3,A.lG(!1,g,!0,A.a2U(k,"My CV"),g,!0,g,g,g,g,g,g,A.w2("https://drive.google.com/file/d/1r8TRrIvFgJuQK8qBUuIiTK6oHDf36LqP/view?usp=sharing"),g,g,g),B.l3,A.lG(!1,g,!0,A.a2U(k,"Discord"),g,!0,g,g,g,g,g,g,A.w2("https://discordapp.com/users/eshaananand"),g,g,g)],n),B.az,B.av,B.bR,0)],n),B.N,B.f7,B.bR),g),g),1)],n)
+k=A.b([A.azU(new A.cj(B.cv,g,g,new A.h1(new A.aj(0,a2,0,1/0),A.pz(A.b([j,B.e6,new A.cj(B.cv,g,g,i,g),b,A.mc(A.b([A.lG(!1,g,!0,A.a2U(k,"Github"),g,!0,g,g,g,g,g,g,A.w2("https://github.com/eshaananand"),g,g,g),B.l3,A.lG(!1,g,!0,A.a2U(k,"LinkedIn"),g,!0,g,g,g,g,g,g,A.w2(u.o),g,g,g),B.l3,A.lG(!1,g,!0,A.a2U(k,"My CV"),g,!0,g,g,g,g,g,g,A.w2("https://drive.google.com/file/d/1cCRgMME2wyqHp8M1kN6jo1eKEn4UmR5c/view?usp=sharing"),g,g,g),B.l3,A.lG(!1,g,!0,A.a2U(k,"Discord"),g,!0,g,g,g,g,g,g,A.w2("https://discordapp.com/users/eshaananand"),g,g,g)],n),B.az,B.av,B.bR,0)],n),B.N,B.f7,B.bR),g),g),1)],n)
 if(a)k.push(h.Pz(B.DL,-0.02))
 return A.hM(A.ak6(new A.h1(new A.aj(0,1/0,f.a.b,1/0),new A.b8(s,A.pz(A.b([q,r,B.bW,new A.db(p,!1,new A.F1($.b_a,o,"> ",g),g),B.bW,A.jv(B.H,A.b([m,A.mc(k,B.az,B.f8,B.bR,0)],n),B.r,B.bX)],n),B.N,B.f7,B.bR),g),g),g),B.aT,g,g,g,h.gad7())}}
 A.as0.prototype={
